@@ -10,11 +10,11 @@ var React = require('react');
 var Site = require('../_core/Site');
 
 /**
- * Adding your logo? Add it to the /whos-using/logos/ directory and then append
- * an entry to this list.
+ * Adding your logo?
+ * Add it to the /users/logos/ directory and then append an entry to this list.
  *
- * Please include logos with transparent backgrounds with no margins. If your
- * logo is round, include `isRound: true` in your entry.
+ * Please include logos with transparent backgrounds with no extra margin in the image.
+ * If your logo is round, include `isRound: true` in your entry.
  */
 var logos = [
   {
@@ -64,6 +64,46 @@ var logos = [
     img: 'persado.png',
     link: 'http://persado.com/platform/persado-go/'
   },
+  {
+    name: 'Attendify',
+    img: 'attendify.png',
+    link: 'https://attendify.com/'
+  },
+  {
+    name: 'Brewery Buddy',
+    img: 'brewerybuddy.png',
+    link: 'http://brewerybuddy.co/'
+  },
+  {
+    name: 'Loggi',
+    img: 'loggi.png',
+    link: 'https://www.loggi.com/'
+  },
+  {
+    name: 'Restorando',
+    img: 'restorando.png',
+    link: 'https://www.restorando.com/'
+  },
+  {
+    name: 'Wishlife',
+    img: 'wishlife.png',
+    link: 'http://www.wishlife.com'
+  },
+  {
+    name: 'Project September',
+    img: 'project-september.png',
+    link: 'https://www.projectseptember.com/'
+  },
+  {
+    name: 'Curio',
+    img: 'curio.png',
+    link: 'https://curio.org'
+  },
+  // Adding your logo?
+  // Add it to the /users/logos/ directory and then append an entry above this comment.
+  //
+  // Please include logos with transparent backgrounds with no extra margin in the image.
+  // If your logo is round, include `isRound: true` in your entry.
 ];
 
 module.exports = ({ page }) =>
